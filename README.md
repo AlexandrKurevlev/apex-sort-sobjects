@@ -13,7 +13,9 @@ String values compared lexicographically, based on the Unicode value of each cha
 Example usage
 -------------
 
-    List<Contact> sortedContacts = new SortSObjects() 
-        .ascending(Contact.FirstName)
-        .ascending(Contact.LastName)
-        .sort(contacts);
+```apex
+List<Contact> sortedContacts = new SortSObjects() 
+    .ascending(Contact.FirstName)
+    .ascending(Contact.LastName)
+    .sort(contacts);
+```
