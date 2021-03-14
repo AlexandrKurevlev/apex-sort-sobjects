@@ -13,6 +13,7 @@ String values compared lexicographically, based on the Unicode value of each cha
 Example usage
 -------------
 
+Sort list of contacts by FirstName and LastName in ascending order
 ```apex
 List<Contact> sortedContacts = new SortSObjects() 
     .ascending(Contact.FirstName)
